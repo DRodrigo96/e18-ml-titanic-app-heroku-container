@@ -1,0 +1,31 @@
+<html>
+    <body bgcolor=#f0f0f0>
+        <center>
+
+            <h1>Results</h1>
+
+            {% if data == 0 %}
+            <h1>You died. F in the chat</h1>
+            <img style="height: 75%; width: 75%" src='static\f-in-the-chat.jpg'>  
+            
+            {% elif data == 1 %}
+            <h1>You survived! PogU</h1>
+            <img src='static\pogu.jpg'>
+
+            {% else %}
+            <h1>Wrong input, try again...</h1>
+            <img src='static\weirdchamp.jpg'>
+                        
+            {% endif %}
+            <br><br>
+            <a href='/'>Back to home page?</a>
+
+        </center>
+    </body>
+</html>
+
+
+
+
+
+

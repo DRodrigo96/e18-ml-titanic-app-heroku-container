@@ -1,0 +1,7 @@
+pandas==1.2.5
+Flask==2.0.1
+numpy==1.20.3
+scikit_learn==0.24.2
+sklearn-pandas==2.2.0
+xgboost==1.2.1
+lightgbm==3.1.1

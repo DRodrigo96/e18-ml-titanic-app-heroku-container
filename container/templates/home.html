@@ -1,0 +1,64 @@
+<html>
+    <body bgcolor=#f0f0f0>
+        <center>
+            
+            <h1>Titanic predictions</h1>
+            
+            <form method="POST", action="{{url_for('home')}}">
+
+                    <p>
+                        Ticket class
+                        <br>
+                        1=1st, 2=2nd, 3=3rd
+                    </p>
+                    <input type="text", name='Pclass', placeholder="i.e: 2">
+
+                    <p>
+                        Sex
+                        <br>
+                        male, female
+                    </p> 
+                    <input type="text", name='Sex', placeholder="i.e: male">
+
+                    <p>
+                        Age
+                        <br>
+                        Only numbers
+                    </p> 
+                    <input type="text", name='Age', placeholder="i.e: 31">
+
+                    <p>
+                        Number of sibling/spouses aboard
+                        <br>
+                        Only numbers
+                    </p> 
+                    <input type="text", name='SibSp', placeholder="i.e: 2">
+
+                    <p>
+                        Number of parents/children aboard
+                        <br>
+                        Only numbers
+                    </p> 
+                    <input type="text", name='Parch', placeholder="i.e: 3">
+
+                    <p>
+                        Fare
+                        <br>
+                        Only numbers
+                    </p> 
+                    <input type="text", name='Fare', placeholder="i.e.: 15.3">
+
+                    <p>
+                        Port of embarkation
+                        <br>
+                        C=Cherbourg, Q=Queenstown, S=Southampton
+                    </p>
+                    <input type="text", name='Embarked', placeholder="i.e: Q">
+
+                    <br><br>
+                <input type="submit" , value='Predecir'>
+            </form>
+
+        </center>
+    </body>
+</html>
